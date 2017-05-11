@@ -1,0 +1,628 @@
+/* ================================================================================
+ * Name: CSS Style V3.0 || 2017 !!!
+ * Company: Banglasoft@Corporation™ !!!
+ * Founder: Engr. Md Mahadi Hassan Herock !!!
+ * Website URL: http://www.bangla-soft.com !!!
+ * Description: Try To Do Something Better Than Other !!!
+ =============================================================================== */
+
+/* ====================== CSS Styling Start From Here ======================== */
+
+/* ========================= General CSS For All =========================== */
+
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+body {
+	-webkit-font-smoothing: antialiased;
+	text-rendering: optimizelegibility;
+}
+
+/* ==================== General CSS For All End Here ======================= */
+
+/* ===================== Navbar Brand In The Center ======================== */
+
+.navbar {
+	display: block;
+	padding: 0px;
+	background: #222E3F;
+	padding: 10px 0px;
+	border: 0px;
+}
+
+.navbar-brand {
+	display: block;
+	font-weight: 500;
+	height: 69px;
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 200px;
+	padding: 23px 15px 0px 0px;
+	text-align: center;
+}
+
+.navbar-brand img {
+	cursor: pointer;
+	position: absolute;
+	transition: 5s;
+	width: 200px;
+	margin-top: 0px
+}
+
+.navbar-brand img:hover {
+	height: 100;
+	margin-top: -5px;
+	width: 300px;
+}
+
+.navbar-toggle {
+	margin-top: 18px;
+}
+
+/* ================ Navbar Brand In The Center End Here ==================== */
+
+/* ============================= Navbar Menu =============================== */
+
+#menu {
+	margin: 10px 0px 0px 0px;
+}
+
+ul#menu li a {
+	color: white;
+	font-weight: bold;
+	font-size: 16px;
+}
+
+ul#menu li:hover {
+	background: #29B18B;
+	border-radius: 5px;
+}
+
+/* ======================== Navbar Menu End Here =========================== */
+
+/* ============================ Slider Area ================================ */
+
+.Slider-Area {
+	text-align: center;
+	background: #18bb9c;
+	margin-top: 89px;
+	color: white;
+}
+
+#slider .man {
+	margin: 70px 0px 15px 0px;
+	cursor: pointer;
+	transition: 1s;
+	height: 190px;
+	width: 190px;
+}
+
+#slider .man:hover {
+	width: 210px;
+	height: 210px;
+	transform: translate(360deg);
+}
+
+#slider h1 {
+	margin: 10px 0px 10px 0px;
+	padding: 0px;
+	font-weight: bold;
+	font-size: 50px;
+}
+
+#slider .star {
+	margin-bottom: 15px;
+}
+
+#slider p {
+	font-size: 17px;
+	font-weight: 500;
+	margin-bottom: 80px;
+}
+
+/* ======================= Slider Area End Here ============================ */
+
+/* ========================== Portfolio Area =============================== */
+
+.Portfolio-Area {
+	text-align: center;
+	margin-top: 55px;
+	padding: 0px;
+}
+
+#portfolio-heading {
+	margin-bottom: 5px;
+}
+
+#portfolio-heading h1 {
+	font-weight: bold;
+	font-size: 35px;
+	margin-bottom: 10px;
+}
+
+#portfolio-heading img {
+	margin-bottom: 10px;
+}
+
+/* ===================== Portfolio Area End Here =========================== */
+
+/* ============================ Panel Area ================================= */
+
+.Panel-Area {
+	margin-bottom: 70px;
+}
+
+#features .col-sm-4 {
+	margin-bottom: 30px;
+}
+
+#panel img {
+	cursor: pointer;
+	box-sizing: border-box;
+}
+
+.home img {
+	transition: 3s;
+	width: 100%;
+	height: 100%;
+	box-sizing: border-box;
+}
+
+.home img:hover {
+	height: auto;
+	transform: rotate(360deg);
+}
+
+.books img {
+	transition: 3s;
+	width: 100%;
+	height: 100%;
+	box-sizing: border-box;
+}
+
+.books img:hover {
+	box-shadow: 0px 0px 10px gray;
+	height: auto;
+	transform: scale(1.1);
+}
+
+.cotage img {
+	width: 100%;
+	height: 100%;
+	transition: 3s;
+	box-sizing: border-box;
+}
+
+.cotage img:hover {
+	box-shadow: 0px 0px 10px gray;
+	height: auto;
+	transform: rotateY(360deg);
+}
+
+.games img {
+	transition: 3s;
+	width: 100%;
+	height: 100%;
+	box-sizing: border-box;
+}
+
+.games img:hover {
+	box-shadow: 0px 0px 10px gray;
+	height: auto;
+	transform: skewX(-10deg);
+}
+
+.almeria img {
+	transition: 3s;
+	width: 100%;
+	height: 100%;
+	box-sizing: border-box;
+}
+
+.almeria img:hover {
+	height: auto;
+	transform: rotate(360deg);
+}
+
+.submarine img {
+	transition: 3s;
+	width: 100%;
+	height: 100%;
+	box-sizing: border-box;
+}
+
+.submarine img:hover {
+	box-shadow: 0px 0px 10px gray;
+	height: auto;
+	transform: rotateX(360deg);
+}
+
+/* ======================= Panel Area End Here ============================= */
+
+/* ============================ About Area ================================= */
+
+.About-Area {
+	background: #18bb9c;
+	text-align: center;
+	color: white;
+}
+
+#about h1 {
+	font-weight: bold;
+	font-size: 40px;
+	margin-bottom: 10px;
+	margin-top: 80px;
+}
+
+#about img {
+	margin-bottom: 10px;
+}
+
+#about p {
+	font-size: 17px;
+	font-weight: 500;
+	margin-bottom: 80px;
+}
+
+.lead {
+	text-align: justify;
+	padding: 0px 20px;
+	width: 40%;
+	display: inline-block;
+}
+
+.download p a {
+	clear: both;
+	border: 3px solid white;
+	padding: 25px 30px;
+	border-radius: 5px;
+	color: white;
+	text-decoration: none;
+	position: relative;
+	top: -25px;
+	font-weight: bold;
+	font-size: 18px;
+	transition: 2s;
+}
+
+.download p a:hover {
+	background: #222E3F;
+	color: red;
+}
+
+/* ======================= About Area End Here ============================= */
+
+/* =========================== Contact Area ================================ */
+
+.Contact-Area {
+	text-align: center;
+	margin-top: 50px;
+}
+
+#contact h1 {
+	font-weight: bold;
+	font-size: 40px;
+	margin-bottom: 10px;
+	padding: 0px;
+	color: #1F303D;
+}
+
+#contact img {
+	margin-bottom: 15px;
+}
+
+.form-herock input {
+	border: 0px;
+	border-bottom: 2px solid #F5F5F5;
+	color: #909496;
+	display: block;
+	margin: 0px auto;
+	padding: 20px 10px;
+	width: 60%;
+	font-size: 18px;
+}
+
+.form-herock input.border {
+	border-top: 2px solid #F5F5F5;
+}
+
+.form-herock textarea {
+	border: 0px;
+	border-bottom: 2px solid #F5F5F5;
+	color: #909496;
+	display: block;
+	margin: 0px auto;
+	padding: 10px;
+	width: 60%;
+	font-size: 18px;
+}
+
+.btn-info {
+	background: #29B18B;
+	font-size: 17px;
+	font-weight: bold;
+	margin: 30px 0px 90px 225px;
+	padding: 13px 23px;
+}
+
+/* ======================= Contact Area End Her ============================ */
+
+/* ============================= Footer Option ============================= */
+
+.Footer-Area {
+	text-align: center;
+	color: white;
+}
+
+.Footer-Up-Area {
+	background: #222E3F;
+	padding: 30px 0px;
+}
+
+.col-md-3 h1 {
+	font-size: 20px;
+	margin-bottom: 20px;
+}
+
+.col-md-3 p {
+	font-size: 15px;
+	line-height: 10px
+}
+
+.col-md-5 h1 {
+	font-size: 20px;
+	margin-bottom: 15px;
+}
+
+.col-md-5 i {
+	border-radius: 50%;
+	border: 1px solid white;
+	color: gray;
+	height: 35px;
+	margin: 3px;
+	padding-top: 10px;
+	transition: 3s;
+	width: 35px;
+}
+
+.col-md-5 .fa-facebook:hover {
+	background: #2E428A;
+	border-color: #2E428A;
+	color: white;
+}
+
+.col-md-5 .fa-google-plus:hover {
+	background: #C93627;
+	border-color: #C93627;
+	color: white;
+}
+
+.col-md-5 .fa-twitter:hover {
+	background: #27ADED;
+	border-color: #27ADED;
+	color: white;
+}
+
+.col-md-5 .fa-linkedin:hover {
+	background: #247DB4;
+	border-color: #247DB4;
+	color: white;
+}
+
+.col-md-5 .fa-dribbble:hover {
+	background: #DA3278;
+	border-color: #DA3278;
+	color: white;
+}
+
+.col-md-4 h1 {
+	font-size: 20px;
+	margin-bottom: 14px;
+}
+
+.col-md-4 p {
+	font-size: 15px;
+	line-height: 20px
+}
+
+.col-md-4 span {
+	color: #3B968B;
+}
+
+.col-md-4 span a:hover {
+	text-decoration: none;
+}
+
+.Footer-Down-Area {
+	background: #1B2531;
+	padding: 20px 0px;
+}
+
+.Footer-Down-Area h5 {
+	line-height: 20px;
+}
+
+/* ======================== Footer Option End Here ========================= */
+
+/* ========================= Start Media Queries =========================== */
+
+@media (max-width: 320px) {
+	.form-herock .btn-info {
+		position: absolute;
+		transform: translateX(-8%);
+	}
+}
+
+@media (max-width: 375px) {
+	.form-herock .btn-info {
+		position: relative;
+		left: -37px;
+	}
+}
+
+@media (max-width: 480px) {
+	.navbar-brand img:hover {
+		width: 245px;
+		margin-left: -30px;
+		margin-top: 1px;
+	}
+	#slider h1 {
+		font-weight: bold;
+		font-size: 30px
+	}
+	#portfolio-heading h1 {
+		font-size: 20px;
+		margin-top: -10px;
+	}
+	.Hidden-Area {
+		margin-top: -80px;
+	}
+	#hidden .well a {
+		font-size: 15px;
+	}
+	#about h1 {
+		font-size: 25px;
+		margin-top: 50px;
+	}
+	#about p {
+		font-size: 15px;
+		font-weight: normal;
+		margin-bottom: 50px;
+	}
+	.lead {
+		padding: 0px 10px;
+		width: 47%;
+	}
+	.download p a {
+		padding: 15px 20px;
+		font-size: 15px;
+		top: -15px;
+	}
+	#contact h1 {
+		font-size: 25px;
+		margin-top: 0px;
+	}
+	.form-herock input {
+		padding: 15px 5px;
+		width: 80%;
+		font-size: 15px;
+	}
+	.form-herock textarea {
+		padding: 15px 5px;
+		width: 80%;
+		font-size: 15px;
+	}
+	.btn-info {
+		font-size: 15px;
+		font-weight: bold;
+		margin: 20px 0px 50px -5px;
+		padding: 10px 20px;
+		position: relative;
+		left: -31px;
+	}
+	#footer .col-md-3 {
+		margin-bottom: -5px;
+		margin-top: -35px;
+		border-bottom: 2px solid white;
+		padding: 15px 0px;
+	}
+	#footer .col-md-5 {
+		margin-bottom: 40px;
+		border-bottom: 2px solid white;
+		padding-top: 15px;
+		padding-bottom: 20px;
+	}
+	#footer .col-md-4 {
+		padding: 0px 40px;
+		padding-bottom: 10px;
+		margin: -15px;
+		margin-bottom: -30px;
+		border-bottom: 2px solid white;
+	}
+	#footer-down .col-md-12 {
+		padding: 0px 20px;
+	}
+}
+
+@media (max-width: 768px) {
+	.navbar-brand img {
+		width: 180px;
+		margin-top: 2px;
+	}
+	.navbar-brand img:hover {
+		width: 200px;
+		margin-left: -15px;
+	}
+	#menu {
+		margin-right: 4px;
+	}
+	#about p {
+		font-size: 18px;
+		font-weight: normal;
+		margin-bottom: 75px;
+	}
+	.lead {
+		padding: 0px 10px;
+		width: 49%;
+	}
+	.download p a {
+		top: -20px;
+	}
+	.form-herock input {
+		padding: 17px 5px;
+		width: 80%;
+		font-size: 19px;
+	}
+	.form-herock textarea {
+		padding: 17px 5px;
+		width: 80%;
+		font-size: 19px;
+	}
+	.btn-info {
+		font-size: 15px;
+		font-weight: bold;
+		margin: 20px 0px 50px 72px;
+		padding: 10px 20px;
+	}
+	#footer .col-md-3 {
+		margin-bottom: -5px;
+		margin-top: -35px;
+		border-bottom: 2px solid white;
+		padding: 15px 0px;
+	}
+	#footer .col-md-5 {
+		margin-bottom: 40px;
+		border-bottom: 2px solid white;
+		padding-top: 15px;
+		padding-bottom: 20px;
+	}
+	#footer .col-md-4 {
+		padding: 0px 40px;
+		padding-bottom: 10px;
+		margin: -15px;
+		margin-bottom: -30px;
+		border-bottom: 2px solid white;
+	}
+	#footer-down .col-md-12 {
+		padding: 0px 20px;
+	}
+}
+
+@media (min-width: 1000px) {
+	.btn-info {
+		margin: 20px 0px 50px 188px;
+	}
+}
+
+@media (min-width: 1200px) {
+	.btn-info {
+		font-size: 20px;
+		margin: 20px 0px 50px 228px;
+	}
+}
+
+/* ====================== Media Queries End Here =========================== */
+
+/* ========================== CSS Styling End Here =========================== */
